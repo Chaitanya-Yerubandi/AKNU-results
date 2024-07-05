@@ -1,0 +1,94 @@
+.menu{height: 9500px; background: black;color: white; border-radius: 10px;}
+
+
+.menu ul{list-style: none;}
+.menu ul li{
+  padding: 5px;margin: 8px;
+}
+
+.menu ul li:hover{background-color: grey;border-radius: 3px;}
+
+.content{ height: 900px;background: grey;}
+
+.products{
+
+  padding:5px; margin:5px; background-color: grey;color: white;height: 300px; border-radius: 5px;
+
+}
+.products :hover{
+  color: blue;
+}
+
+
+
+ /* App.css */
+
+.container-fluid {
+  width: 100%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 900px;
+  margin-bottom: 10px;
+}
+
+.blue-line {
+  width: 100%;
+  height: 50px;
+  background-color:skyblue;
+  margin-top: 10px;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.result-page h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.search-box label {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.h4{
+  align-content: center;
+  margin-top: 30px;
+}
+.name {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
